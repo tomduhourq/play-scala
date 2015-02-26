@@ -16,11 +16,19 @@ I am using Scala 2.11.5 and Intellij IDEA 14 Community Edition (this is importan
   export PATH=$PATH:/path/to/activator
   ````
   
-  Run  ````activator ```` This will download all the dependencies
+  You should be able to run ````$ activator````
   
-  Wherever you want to start building your application type ````activator new [app-name] [template-name]```` with template-name being ````play-scala```` in our case.
+  Wherever you want to start building your application type 
+  ````$ activator new [app-name] [template-name]```` 
+  with template-name being ````play-scala```` in our case.
   
-  Inside the ````[app-name]```` folder just created type ````activator```` to enter console mode (will take a few minutes)
+  Next
+  ````
+  $ cd app-name
+  [app-name] $ activator
+  [app-name] $ idea with-sources=yes
+  [app-name] $ exit
+  ````
   
 ## Damn Import 
   
