@@ -30,5 +30,5 @@ I am using Scala 2.11.5 and Intellij IDEA 14 Community Edition (this is importan
   remove all ````.idea```` and all ````.iml```` files + 
   ````sbt idea```` inside the project's folder
 
-## I hope this has been of some help to anyone, enjoy Play!ing
+## I hope this has been of some help to anyone, enjoy Play!ng with Scala
 
