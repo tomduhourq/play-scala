@@ -1,8 +1,8 @@
 # Play! 2 for Scala tutorial
 
-This is a project intended to be a tutorial to start using Play! 2 Framework with Scala, and for my own because I had quite a mess managing to run everyhting on my IDE.
+This is a project intended to be a tutorial to start using *Play! 2 Framework with Scala*, and for my own because I had quite a mess managing to run everyhting on my IDE.
 
-I am using Scala 2.11.5 and Intellij IDEA 14 Community Edition (this is important to my belief because the scala plugin doesn't have support for Play! in com edition).
+I am using **Scala 2.11.5** and **Intellij IDEA 14 Community Edition** (this is important to my belief because the scala plugin doesn't have support for Play! in com edition).
 
 ## Install 
 
@@ -29,11 +29,14 @@ I am using Scala 2.11.5 and Intellij IDEA 14 Community Edition (this is importan
   [app-name] $ idea with-sources=yes
   [app-name] $ exit
   ````
+  Now we have created IntelliJ Idea project files. Launch IntelliJ, and select *file > open*. Go to your app folder and see if it gets detected as an IntelliJ project. 
+  
+  Open it.
   
 ## Damn Import 
   
-  As I mentioned before, we have troubles to import the app to Intellij and getting the dependencies correctly detected.
-  Obviously, first make sure that you can import the project as SBT project.
+  As I mentioned before, I had trouble to import the app to Intellij and getting the dependencies correctly detected.
+  Obviously, first make sure that you can import the project as a *sbt* project.
   My personal solution was to:
   
   ````sbt clean```` inside the project's folder + 
@@ -41,4 +44,22 @@ I am using Scala 2.11.5 and Intellij IDEA 14 Community Edition (this is importan
   ````sbt idea```` inside the project's folder
 
 ## I hope this has been of some help to anyone, enjoy Play!ng with Scala
+
+## Extra: Debugging
+
+  In the *Debugging* section, add a new *Remote* configuration
+  
+  ````
+Set a name
+Transport: Socket
+Debugger mode: Attach
+Host: localhost
+Port: 9999
+Select module you imported
+  ````
+  After applying this hit
+   ````
+  $ activator -jvm-debug 9999
+  $ run
+  ````
 
