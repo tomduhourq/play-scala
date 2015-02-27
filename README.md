@@ -47,7 +47,7 @@ I am using **Scala 2.11.5** and **Intellij IDEA 14 Community Edition** (this is 
 
 ## Extra: Debugging
 
-  In the *Debugging* section, add a new *Remote* configuration
+  In the *Run -> Edit Configurations* section, add a new *Remote* configuration and:
   
   ````
 Set a name
