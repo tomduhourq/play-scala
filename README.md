@@ -35,12 +35,13 @@ I am using **Scala 2.11.5** and **Intellij IDEA 14 Community Edition** (this is 
   
 ## Damn Import 
   
-  As I mentioned before, I had trouble to import the app to Intellij and getting the dependencies correctly detected.
-  Obviously, first make sure that you can import the project as a *sbt* project.
+  As I mentioned before, I had some issues importing the app to Intellij and getting the dependencies correctly detected.
+  Obviously, first make sure you can import the project as a *sbt* project.
+  
   My personal solution was to:
   
-  ````sbt clean```` inside the project's folder + 
-  remove all ````.idea```` and all ````.iml```` files + 
+  ````sbt clean```` + 
+  delte all ````.idea```` and all ````.iml```` files + 
   ````sbt idea```` inside the project's folder
 
 ## I hope this has been of some help to anyone, enjoy Play!ng with Scala
