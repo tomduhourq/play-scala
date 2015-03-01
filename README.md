@@ -64,3 +64,4 @@ Select module you imported
   $ run
   ````
 
+Many of the tips here were taken from [FPerezP blog](http://blog.fperezp.com/2014/07/13/first-steps-with-play-framework-and-intellij-idea/)
