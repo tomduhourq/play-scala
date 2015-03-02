@@ -3,10 +3,13 @@ package controllers
 import play.api._
 import play.api.mvc._
 
-object Application extends Controller {
+object Application extends Controller with ChangeLanguage {
 
-  def index = Action {
-    Ok(views.html.index("Welcome to your Play! application"))
+  def hello(name: String) = Action {
+    Ok("Hello " + name)
+  }
+  def index = Action { implicit request =>
+    Ok(views.html.index())
   }
 
 }
