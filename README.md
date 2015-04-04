@@ -68,3 +68,7 @@ There is an extra plugin you could use, which is [sbt-idea](https://github.com/m
 ````addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")````
 
 Many of the tips here were taken from [FPerezP blog](http://blog.fperezp.com/2014/07/13/first-steps-with-play-framework-and-intellij-idea/)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tomduhourq/play-scala/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
